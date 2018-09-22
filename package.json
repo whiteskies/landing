@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/whiteskies/landing/issues"
   },
-  "homepage": "https://github.com/whiteskies/landing#readme"
+  "homepage": "https://github.com/whiteskies/landing#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
