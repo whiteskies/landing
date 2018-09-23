@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "./node_modules/.bin/nodemon --watch public index.js",
+    "livereload": "./node_modules/.bin/livereload . -w 1000 -d"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,9 @@
   "homepage": "https://github.com/whiteskies/landing#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "livereload": "^0.7.0",
+    "nodemon": "^1.18.4"
   }
 }
