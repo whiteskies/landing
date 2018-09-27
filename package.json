@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "watch": "./node_modules/.bin/nodemon --watch public index.js",
+    "watch:sass": "./node_modules/.bin/sass --watch public/assets/sass:public/assets/css",
     "livereload": "./node_modules/.bin/livereload . -w 1000 -d",
     "sass": "./node_modules/.bin/sass public/assets/sass/noscript.scss public/assets/css/noscript.css && ./node_modules/.bin/sass public/assets/sass/main.scss public/assets/css/main.css"
   },
